@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zuul" />
+        <module name="client-two" />
+        <module name="eureka-server" />
+        <module name="cloud-api" />
+        <module name="client-one" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="client-one" target="1.8" />
+      <module name="client-two" target="1.8" />
+      <module name="cloud-api" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client-one" options="-parameters" />
+      <module name="client-two" options="-parameters" />
+      <module name="cloud-api" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
