@@ -25,7 +25,7 @@
         <springframework.version>5.0.5.RELEASE</springframework.version>
 
         <feign-okhttp.version>8.18.0</feign-okhttp.version>
-        <springfox-swagger.version>2.7.0</springfox-swagger.version>
+        <springfox-swagger.version>2.10.0</springfox-swagger.version>
     </properties>
     <!--test-->
     <dependencyManagement>
